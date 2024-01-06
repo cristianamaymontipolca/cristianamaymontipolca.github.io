@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f4ebD4;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.logo{
+    background-position: center;
+    margin-right: 400px;
+}
+
+/* home */
+
+nav{
+    display: flex;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img{
+    display: flex;
+    height: auto;
+    width: 200px;
+    margin: 1px 5px;
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+    overflow: hidden;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+nav ul li a:hover{
+    color: goldenrod;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text1{
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.text1 h2{
+    font-size: 60px;
+    color: #606060;
+}
+
+.text1 h1{
+    font-size: 80px;
+    color: #606060;
+    text-align: left 20px;
+    margin-bottom: 60px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    
+}
+
+span{
+    color: goldenrod;
+}
+
+.text1 p{
+    font-size: 18px;
+    color: #606060;
+    line-height: 50px;
+}
+
+.text-box{
+    margin-right: 120px;
+    margin-left: 10%;
+}
+
+.images1{
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+.images1 img{
+    align-items: center; 
+    justify-content: center;
+    width: 500px;
+    height: auto;
+}
+
+/* about me */
+
+.monti {
+    overflow: hidden;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.text2{
+    margin-left: 8px;
+}
+
+.text2 h2{
+    font-size: 60px;
+    color: #606060;
+}
+
+.text2 h1{
+    font-size: 80px;
+    color: #606060;
+    text-align: left 20px;
+    margin-bottom:px;
+}
+
+span{
+    color: goldenrod;
+}
+
+.text2 p{
+    font-size: 10px;
+    color: #606060;
+    line-height: 20px;
+}
+
+.text-box2{
+    margin-right: 100px;
+    margin-left: 10%;
+}
+
+.images2{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.images2 img{
+    align-items: center; 
+    justify-content: center;
+    width: 400px;
+    height: auto;
+}
+
+.know h1{
+    font-size: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.cris p{
+    font-size: 18px;
+}
+
+.title h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.body p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* my career */ 
+
+.may {
+    overflow: hidden;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.text3{
+    margin-left: 8px;
+}
+
+.text3 h2{
+    font-size: 60px;
+    color: #606060;
+}
+
+.text3 h1{
+    font-size: 80px;
+    color: #606060;
+    text-align: left 20px;
+    margin-bottom:px;
+}
+
+span{
+    color: goldenrod;
+}
+
+.text3 p{
+    font-size: 10px;
+    color: #606060;
+    line-height: 20px;
+}
+
+.text-box3{
+    margin-right: 100px;
+    margin-left: 10%;
+}
+
+.images3{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.images3 img{
+    align-items: center; 
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+}
+
+.career h1{
+    font-size: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.body3 p{
+    font-size: 18px;
+}
+
+.design h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
